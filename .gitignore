@@ -1,0 +1,15 @@
+.mvn
+.settings
+gradle
+local
+logs
+target
+
+.classpath
+.project
+
+build.gradle
+gradlew
+gradlew.bat
+mvnw
+mvnw.cmd

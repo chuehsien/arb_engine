@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+	<solutionClass>com.dapp.opti.domain.ArbSolution</solutionClass>
+	<entityClass>com.dapp.opti.domain.ITokenOrStart</entityClass>
+	<entityClass>com.dapp.opti.domain.Token</entityClass>
+
+	<!-- Score configuration -->
+	<scoreDirectorFactory>
+		<constraintProviderClass>com.dapp.opti.solver.ArbConstraintProvider</constraintProviderClass>
+	</scoreDirectorFactory>
+	<moveThreadCount>1</moveThreadCount>
+	<!--  <environmentMode>FULL_ASSERT</environmentMode> -->
+	<!-- Optimization algorithms configuration -->
+	<termination>
+		<unimprovedSecondsSpentLimit>60</unimprovedSecondsSpentLimit>
+	</termination>
+
+ <constructionHeuristic>	
+ </constructionHeuristic>
+ 
+	<localSearch>
+		<!-- MUST split up assigning of chain moves or normal moves if not null 
+			pointer will happen. -->
+		<unionMoveSelector>
+			<changeMoveSelector>
+				<valueSelector
+					variableName="previousTokenOrStart">
+				</valueSelector>
+			</changeMoveSelector>
+			
+
+			<swapMoveSelector>
+				<variableNameInclude>previousTokenOrStart</variableNameInclude>
+			</swapMoveSelector>
+
+
+
+			<tailChainSwapMoveSelector>
+				<valueSelector variableName="previousTokenOrStart">
+				</valueSelector>
+			</tailChainSwapMoveSelector>
+		</unionMoveSelector>
+
+		
+		<acceptor>
+			<lateAcceptanceSize>400</lateAcceptanceSize>
+		</acceptor>
+		<forager>
+			<acceptedCountLimit>1</acceptedCountLimit>
+		</forager>
+	</localSearch>
+</solver>

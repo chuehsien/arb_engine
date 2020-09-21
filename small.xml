@@ -1,0 +1,1318 @@
+<com.toc.opti.domain.SwabAssignmentSolution id="1">
+  <id>1590517634738</id>
+  <constraintConfiguration id="2">
+    <consecutiveTeamPerRequestScore id="3">
+      <initScore>0</initScore>
+      <hardScores id="4">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="5">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </consecutiveTeamPerRequestScore>
+    <consecutivePerRequestScore id="6">
+      <initScore>0</initScore>
+      <hardScores id="7">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="8">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </consecutivePerRequestScore>
+    <labNCapacityScore id="9">
+      <initScore>0</initScore>
+      <hardScores id="10">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="11">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </labNCapacityScore>
+    <labPCapacityScore id="12">
+      <initScore>0</initScore>
+      <hardScores id="13">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="14">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </labPCapacityScore>
+    <swabTeamTimeConflictScore id="15">
+      <initScore>0</initScore>
+      <hardScores id="16">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="17">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </swabTeamTimeConflictScore>
+    <labPreferenceHardScore id="18">
+      <initScore>0</initScore>
+      <hardScores id="19">
+        <int>1</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="20">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </labPreferenceHardScore>
+    <noTeamAssignedScore id="21">
+      <initScore>0</initScore>
+      <hardScores id="22">
+        <int>0</int>
+        <int>1</int>
+      </hardScores>
+      <softScores id="23">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </noTeamAssignedScore>
+    <noLabAssignedScore id="24">
+      <initScore>0</initScore>
+      <hardScores id="25">
+        <int>0</int>
+        <int>1</int>
+      </hardScores>
+      <softScores id="26">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </noLabAssignedScore>
+    <noDateAssigned id="27">
+      <initScore>0</initScore>
+      <hardScores id="28">
+        <int>0</int>
+        <int>1</int>
+      </hardScores>
+      <softScores id="29">
+        <int>0</int>
+        <int>0</int>
+      </softScores>
+    </noDateAssigned>
+    <labPreferenceSoftScore id="30">
+      <initScore>0</initScore>
+      <hardScores id="31">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="32">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </labPreferenceSoftScore>
+    <wastedResourceOnPartialAssignmentScore id="33">
+      <initScore>0</initScore>
+      <hardScores id="34">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="35">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </wastedResourceOnPartialAssignmentScore>
+    <discourageShortDeploymentsScore id="36">
+      <initScore>0</initScore>
+      <hardScores id="37">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="38">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </discourageShortDeploymentsScore>
+    <reduceTeamCardinalityScore id="39">
+      <initScore>0</initScore>
+      <hardScores id="40">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="41">
+        <int>10</int>
+        <int>0</int>
+      </softScores>
+    </reduceTeamCardinalityScore>
+    <reduceLabCardinalityScore id="42">
+      <initScore>0</initScore>
+      <hardScores id="43">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="44">
+        <int>10</int>
+        <int>0</int>
+      </softScores>
+    </reduceLabCardinalityScore>
+    <penalizeByPriorityTeamScore id="45">
+      <initScore>0</initScore>
+      <hardScores id="46">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="47">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </penalizeByPriorityTeamScore>
+    <penalizeByPriorityLabScore id="48">
+      <initScore>0</initScore>
+      <hardScores id="49">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="50">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </penalizeByPriorityLabScore>
+    <penalizeByPriorityDateScore id="51">
+      <initScore>0</initScore>
+      <hardScores id="52">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="53">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </penalizeByPriorityDateScore>
+    <orderByPriorityScore id="54">
+      <initScore>0</initScore>
+      <hardScores id="55">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="56">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </orderByPriorityScore>
+    <minRequestPerAnchorScore id="57">
+      <initScore>0</initScore>
+      <hardScores id="58">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="59">
+        <int>1</int>
+        <int>0</int>
+      </softScores>
+    </minRequestPerAnchorScore>
+    <minRequestGapsScore id="60">
+      <initScore>0</initScore>
+      <hardScores id="61">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="62">
+        <int>0</int>
+        <int>1</int>
+      </softScores>
+    </minRequestGapsScore>
+    <scheduleEndEarlierScore id="63">
+      <initScore>0</initScore>
+      <hardScores id="64">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="65">
+        <int>0</int>
+        <int>20</int>
+      </softScores>
+    </scheduleEndEarlierScore>
+    <biggerBatchesFirstScore id="66">
+      <initScore>0</initScore>
+      <hardScores id="67">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="68">
+        <int>0</int>
+        <int>1</int>
+      </softScores>
+    </biggerBatchesFirstScore>
+    <nLabUtilScore id="69">
+      <initScore>0</initScore>
+      <hardScores id="70">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="71">
+        <int>0</int>
+        <int>1</int>
+      </softScores>
+    </nLabUtilScore>
+    <pLabUtilScore id="72">
+      <initScore>0</initScore>
+      <hardScores id="73">
+        <int>0</int>
+        <int>0</int>
+      </hardScores>
+      <softScores id="74">
+        <int>0</int>
+        <int>1</int>
+      </softScores>
+    </pLabUtilScore>
+  </constraintConfiguration>
+  <labList id="75">
+    <com.toc.opti.domain.Lab id="76">
+      <id>639150366</id>
+      <runningOrder>1</runningOrder>
+      <name>Lab1</name>
+      <location>Location1</location>
+      <nCapacities id="77">
+        <entry>
+          <int>0</int>
+          <int>260</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>230</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>220</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>290</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>220</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>280</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>270</int>
+        </entry>
+      </nCapacities>
+      <pCapacities id="78">
+        <entry>
+          <int>0</int>
+          <int>50</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>40</int>
+        </entry>
+      </pCapacities>
+    </com.toc.opti.domain.Lab>
+    <com.toc.opti.domain.Lab id="79">
+      <id>482898551</id>
+      <runningOrder>2</runningOrder>
+      <name>Lab2</name>
+      <location>Location2</location>
+      <nCapacities id="80">
+        <entry>
+          <int>0</int>
+          <int>300</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>280</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>240</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>240</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>220</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>250</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>200</int>
+        </entry>
+      </nCapacities>
+      <pCapacities id="81">
+        <entry>
+          <int>0</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>40</int>
+        </entry>
+      </pCapacities>
+    </com.toc.opti.domain.Lab>
+    <com.toc.opti.domain.Lab id="82">
+      <id>537286448</id>
+      <runningOrder>3</runningOrder>
+      <name>Lab3</name>
+      <location>Location3</location>
+      <nCapacities id="83">
+        <entry>
+          <int>0</int>
+          <int>290</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>250</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>240</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>200</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>230</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>240</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>260</int>
+        </entry>
+      </nCapacities>
+      <pCapacities id="84">
+        <entry>
+          <int>0</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>20</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>50</int>
+        </entry>
+      </pCapacities>
+    </com.toc.opti.domain.Lab>
+    <com.toc.opti.domain.Lab id="85">
+      <id>335165440</id>
+      <runningOrder>4</runningOrder>
+      <name>Lab4</name>
+      <location>Location4</location>
+      <nCapacities id="86">
+        <entry>
+          <int>0</int>
+          <int>260</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>300</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>270</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>210</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>220</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>220</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>210</int>
+        </entry>
+      </nCapacities>
+      <pCapacities id="87">
+        <entry>
+          <int>0</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>1</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>2</int>
+          <int>40</int>
+        </entry>
+        <entry>
+          <int>3</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>4</int>
+          <int>50</int>
+        </entry>
+        <entry>
+          <int>5</int>
+          <int>30</int>
+        </entry>
+        <entry>
+          <int>6</int>
+          <int>40</int>
+        </entry>
+      </pCapacities>
+    </com.toc.opti.domain.Lab>
+  </labList>
+  <swabTeams id="88">
+    <com.toc.opti.domain.SwabTeam id="89">
+      <id>631804773</id>
+      <name>Team1</name>
+      <location>SwabLoc1</location>
+      <ghost>false</ghost>
+      <chainMembers id="90"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="91">
+      <id>130220839</id>
+      <name>Team2</name>
+      <location>SwabLoc2</location>
+      <ghost>false</ghost>
+      <chainMembers id="92"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="93">
+      <id>131059985</id>
+      <name>Team3</name>
+      <location>SwabLoc3</location>
+      <ghost>false</ghost>
+      <chainMembers id="94"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="95">
+      <id>550839283</id>
+      <name>Team4</name>
+      <location>SwabLoc4</location>
+      <ghost>false</ghost>
+      <chainMembers id="96"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="97">
+      <id>329397156</id>
+      <name>Team5</name>
+      <location>SwabLoc5</location>
+      <ghost>false</ghost>
+      <chainMembers id="98"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="99">
+      <id>67220378</id>
+      <name>Team6</name>
+      <location>SwabLoc6</location>
+      <ghost>false</ghost>
+      <chainMembers id="100"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="101">
+      <id>411266667</id>
+      <name>Team7</name>
+      <location>SwabLoc7</location>
+      <ghost>false</ghost>
+      <chainMembers id="102"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="103">
+      <id>244881179</id>
+      <name>Team8</name>
+      <location>SwabLoc8</location>
+      <ghost>false</ghost>
+      <chainMembers id="104"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="105">
+      <id>737884022</id>
+      <name>Team9</name>
+      <location>SwabLoc9</location>
+      <ghost>false</ghost>
+      <chainMembers id="106"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="107">
+      <id>104248903</id>
+      <name>Team10</name>
+      <location>SwabLoc10</location>
+      <ghost>false</ghost>
+      <chainMembers id="108"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="109">
+      <id>667090320</id>
+      <nextSwabTeamDay id="110">
+        <id>180131006</id>
+        <nextSwabTeamDay id="111">
+          <id>71065079</id>
+          <nextSwabTeamDay id="112">
+            <id>32013130</id>
+            <nextSwabTeamDay id="113">
+              <id>873050221</id>
+              <batchIndex>3</batchIndex>
+              <batchSize>10</batchSize>
+              <swabRequest id="114">
+                <id>907132535</id>
+                <type>N</type>
+                <priority>1</priority>
+                <size>190</size>
+                <desc>N_Req_1</desc>
+                <runningOrder>0</runningOrder>
+                <swabTeamDays id="115">
+                  <com.toc.opti.domain.SwabTeamDay reference="110"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="111"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="112"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="113"/>
+                </swabTeamDays>
+              </swabRequest>
+              <pinned>false</pinned>
+              <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="112"/>
+              <anchorSwabTeam reference="109"/>
+            </nextSwabTeamDay>
+            <batchIndex>2</batchIndex>
+            <batchSize>60</batchSize>
+            <swabRequest reference="114"/>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="111"/>
+            <anchorSwabTeam reference="109"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="114"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="110"/>
+          <anchorSwabTeam reference="109"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="114"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="109"/>
+        <anchorSwabTeam reference="109"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_1]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="114"/>
+      <chainMembers reference="115"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="116">
+      <id>460260518</id>
+      <nextSwabTeamDay id="117">
+        <id>626003222</id>
+        <nextSwabTeamDay id="118">
+          <id>135160110</id>
+          <batchIndex>1</batchIndex>
+          <batchSize>40</batchSize>
+          <swabRequest id="119">
+            <id>271811977</id>
+            <type>N</type>
+            <priority>2</priority>
+            <size>100</size>
+            <desc>N_Req_2</desc>
+            <runningOrder>0</runningOrder>
+            <swabTeamDays id="120">
+              <com.toc.opti.domain.SwabTeamDay reference="117"/>
+              <com.toc.opti.domain.SwabTeamDay reference="118"/>
+            </swabTeamDays>
+          </swabRequest>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="117"/>
+          <anchorSwabTeam reference="116"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="119"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="116"/>
+        <anchorSwabTeam reference="116"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_2]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="119"/>
+      <chainMembers reference="120"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="121">
+      <id>460743377</id>
+      <nextSwabTeamDay id="122">
+        <id>997321294</id>
+        <nextSwabTeamDay id="123">
+          <id>834664263</id>
+          <nextSwabTeamDay id="124">
+            <id>267705356</id>
+            <batchIndex>2</batchIndex>
+            <batchSize>20</batchSize>
+            <swabRequest id="125">
+              <id>444112626</id>
+              <type>N</type>
+              <priority>2</priority>
+              <size>140</size>
+              <desc>N_Req_3</desc>
+              <runningOrder>0</runningOrder>
+              <swabTeamDays id="126">
+                <com.toc.opti.domain.SwabTeamDay reference="122"/>
+                <com.toc.opti.domain.SwabTeamDay reference="123"/>
+                <com.toc.opti.domain.SwabTeamDay reference="124"/>
+              </swabTeamDays>
+            </swabRequest>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="123"/>
+            <anchorSwabTeam reference="121"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="125"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="122"/>
+          <anchorSwabTeam reference="121"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="125"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="121"/>
+        <anchorSwabTeam reference="121"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_3]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="125"/>
+      <chainMembers reference="126"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="127">
+      <id>962982298</id>
+      <nextSwabTeamDay id="128">
+        <id>459317659</id>
+        <nextSwabTeamDay id="129">
+          <id>673378689</id>
+          <nextSwabTeamDay id="130">
+            <id>13746333</id>
+            <nextSwabTeamDay id="131">
+              <id>775721422</id>
+              <batchIndex>3</batchIndex>
+              <batchSize>10</batchSize>
+              <swabRequest id="132">
+                <id>797903723</id>
+                <type>N</type>
+                <priority>2</priority>
+                <size>190</size>
+                <desc>N_Req_4</desc>
+                <runningOrder>0</runningOrder>
+                <swabTeamDays id="133">
+                  <com.toc.opti.domain.SwabTeamDay reference="128"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="129"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="130"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="131"/>
+                </swabTeamDays>
+              </swabRequest>
+              <pinned>false</pinned>
+              <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="130"/>
+              <anchorSwabTeam reference="127"/>
+            </nextSwabTeamDay>
+            <batchIndex>2</batchIndex>
+            <batchSize>60</batchSize>
+            <swabRequest reference="132"/>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="129"/>
+            <anchorSwabTeam reference="127"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="132"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="128"/>
+          <anchorSwabTeam reference="127"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="132"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="127"/>
+        <anchorSwabTeam reference="127"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_4]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="132"/>
+      <chainMembers reference="133"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="134">
+      <id>28315285</id>
+      <nextSwabTeamDay id="135">
+        <id>408504316</id>
+        <nextSwabTeamDay id="136">
+          <id>532901459</id>
+          <nextSwabTeamDay id="137">
+            <id>84279737</id>
+            <nextSwabTeamDay id="138">
+              <id>159217473</id>
+              <batchIndex>3</batchIndex>
+              <batchSize>20</batchSize>
+              <swabRequest id="139">
+                <id>613672303</id>
+                <type>N</type>
+                <priority>1</priority>
+                <size>200</size>
+                <desc>N_Req_5</desc>
+                <runningOrder>0</runningOrder>
+                <swabTeamDays id="140">
+                  <com.toc.opti.domain.SwabTeamDay reference="135"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="136"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="137"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="138"/>
+                </swabTeamDays>
+              </swabRequest>
+              <pinned>false</pinned>
+              <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="137"/>
+              <anchorSwabTeam reference="134"/>
+            </nextSwabTeamDay>
+            <batchIndex>2</batchIndex>
+            <batchSize>60</batchSize>
+            <swabRequest reference="139"/>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="136"/>
+            <anchorSwabTeam reference="134"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="139"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="135"/>
+          <anchorSwabTeam reference="134"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="139"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="134"/>
+        <anchorSwabTeam reference="134"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_5]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="139"/>
+      <chainMembers reference="140"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="141">
+      <id>33312139</id>
+      <nextSwabTeamDay id="142">
+        <id>966586793</id>
+        <nextSwabTeamDay id="143">
+          <id>315814935</id>
+          <nextSwabTeamDay id="144">
+            <id>852704718</id>
+            <nextSwabTeamDay id="145">
+              <id>856704030</id>
+              <batchIndex>3</batchIndex>
+              <batchSize>20</batchSize>
+              <swabRequest id="146">
+                <id>264088878</id>
+                <type>N</type>
+                <priority>2</priority>
+                <size>200</size>
+                <desc>N_Req_6</desc>
+                <runningOrder>0</runningOrder>
+                <swabTeamDays id="147">
+                  <com.toc.opti.domain.SwabTeamDay reference="142"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="143"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="144"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="145"/>
+                </swabTeamDays>
+              </swabRequest>
+              <pinned>false</pinned>
+              <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="144"/>
+              <anchorSwabTeam reference="141"/>
+            </nextSwabTeamDay>
+            <batchIndex>2</batchIndex>
+            <batchSize>60</batchSize>
+            <swabRequest reference="146"/>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="143"/>
+            <anchorSwabTeam reference="141"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="146"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="142"/>
+          <anchorSwabTeam reference="141"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="146"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="141"/>
+        <anchorSwabTeam reference="141"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_6]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="146"/>
+      <chainMembers reference="147"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="148">
+      <id>663464021</id>
+      <nextSwabTeamDay id="149">
+        <id>723909471</id>
+        <nextSwabTeamDay id="150">
+          <id>863472413</id>
+          <nextSwabTeamDay id="151">
+            <id>239091572</id>
+            <batchIndex>2</batchIndex>
+            <batchSize>10</batchSize>
+            <swabRequest id="152">
+              <id>964764839</id>
+              <type>N</type>
+              <priority>1</priority>
+              <size>130</size>
+              <desc>N_Req_7</desc>
+              <runningOrder>0</runningOrder>
+              <swabTeamDays id="153">
+                <com.toc.opti.domain.SwabTeamDay reference="149"/>
+                <com.toc.opti.domain.SwabTeamDay reference="150"/>
+                <com.toc.opti.domain.SwabTeamDay reference="151"/>
+              </swabTeamDays>
+            </swabRequest>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="150"/>
+            <anchorSwabTeam reference="148"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="152"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="149"/>
+          <anchorSwabTeam reference="148"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="152"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="148"/>
+        <anchorSwabTeam reference="148"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_7]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="152"/>
+      <chainMembers reference="153"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="154">
+      <id>264952377</id>
+      <nextSwabTeamDay id="155">
+        <id>416103411</id>
+        <nextSwabTeamDay id="156">
+          <id>906919689</id>
+          <nextSwabTeamDay id="157">
+            <id>925568701</id>
+            <batchIndex>2</batchIndex>
+            <batchSize>20</batchSize>
+            <swabRequest id="158">
+              <id>282118146</id>
+              <type>N</type>
+              <priority>1</priority>
+              <size>140</size>
+              <desc>N_Req_8</desc>
+              <runningOrder>0</runningOrder>
+              <swabTeamDays id="159">
+                <com.toc.opti.domain.SwabTeamDay reference="155"/>
+                <com.toc.opti.domain.SwabTeamDay reference="156"/>
+                <com.toc.opti.domain.SwabTeamDay reference="157"/>
+              </swabTeamDays>
+            </swabRequest>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="156"/>
+            <anchorSwabTeam reference="154"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="158"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="155"/>
+          <anchorSwabTeam reference="154"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="158"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="154"/>
+        <anchorSwabTeam reference="154"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_8]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="158"/>
+      <chainMembers reference="159"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="160">
+      <id>664885302</id>
+      <nextSwabTeamDay id="161">
+        <id>581822775</id>
+        <nextSwabTeamDay id="162">
+          <id>621749107</id>
+          <nextSwabTeamDay id="163">
+            <id>710822723</id>
+            <nextSwabTeamDay id="164">
+              <id>841862613</id>
+              <batchIndex>3</batchIndex>
+              <batchSize>20</batchSize>
+              <swabRequest id="165">
+                <id>412305065</id>
+                <type>N</type>
+                <priority>1</priority>
+                <size>200</size>
+                <desc>N_Req_9</desc>
+                <runningOrder>0</runningOrder>
+                <swabTeamDays id="166">
+                  <com.toc.opti.domain.SwabTeamDay reference="161"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="162"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="163"/>
+                  <com.toc.opti.domain.SwabTeamDay reference="164"/>
+                </swabTeamDays>
+              </swabRequest>
+              <pinned>false</pinned>
+              <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="163"/>
+              <anchorSwabTeam reference="160"/>
+            </nextSwabTeamDay>
+            <batchIndex>2</batchIndex>
+            <batchSize>60</batchSize>
+            <swabRequest reference="165"/>
+            <pinned>false</pinned>
+            <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="162"/>
+            <anchorSwabTeam reference="160"/>
+          </nextSwabTeamDay>
+          <batchIndex>1</batchIndex>
+          <batchSize>60</batchSize>
+          <swabRequest reference="165"/>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="161"/>
+          <anchorSwabTeam reference="160"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="165"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="160"/>
+        <anchorSwabTeam reference="160"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_9]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="165"/>
+      <chainMembers reference="166"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="167">
+      <id>865213151</id>
+      <nextSwabTeamDay id="168">
+        <id>680599701</id>
+        <nextSwabTeamDay id="169">
+          <id>863262611</id>
+          <batchIndex>1</batchIndex>
+          <batchSize>50</batchSize>
+          <swabRequest id="170">
+            <id>862250090</id>
+            <type>N</type>
+            <priority>3</priority>
+            <size>110</size>
+            <desc>N_Req_10</desc>
+            <runningOrder>0</runningOrder>
+            <swabTeamDays id="171">
+              <com.toc.opti.domain.SwabTeamDay reference="168"/>
+              <com.toc.opti.domain.SwabTeamDay reference="169"/>
+            </swabTeamDays>
+          </swabRequest>
+          <pinned>false</pinned>
+          <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeamDay" reference="168"/>
+          <anchorSwabTeam reference="167"/>
+        </nextSwabTeamDay>
+        <batchIndex>0</batchIndex>
+        <batchSize>60</batchSize>
+        <swabRequest reference="170"/>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="167"/>
+        <anchorSwabTeam reference="167"/>
+      </nextSwabTeamDay>
+      <name>ghost[N_Req_10]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="170"/>
+      <chainMembers reference="171"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="172">
+      <id>617423237</id>
+      <nextSwabTeamDay id="173">
+        <id>763481686</id>
+        <batchIndex>0</batchIndex>
+        <batchSize>40</batchSize>
+        <swabRequest id="174">
+          <id>250410547</id>
+          <type>P</type>
+          <priority>2</priority>
+          <size>40</size>
+          <desc>P_Req_1</desc>
+          <runningOrder>1</runningOrder>
+          <swabTeamDays id="175">
+            <com.toc.opti.domain.SwabTeamDay reference="173"/>
+          </swabTeamDays>
+        </swabRequest>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="172"/>
+        <anchorSwabTeam reference="172"/>
+      </nextSwabTeamDay>
+      <name>ghost[P_Req_1]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="174"/>
+      <chainMembers reference="175"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="176">
+      <id>773264402</id>
+      <nextSwabTeamDay id="177">
+        <id>325919017</id>
+        <batchIndex>0</batchIndex>
+        <batchSize>40</batchSize>
+        <swabRequest id="178">
+          <id>942844925</id>
+          <type>P</type>
+          <priority>1</priority>
+          <size>40</size>
+          <desc>P_Req_2</desc>
+          <runningOrder>2</runningOrder>
+          <swabTeamDays id="179">
+            <com.toc.opti.domain.SwabTeamDay reference="177"/>
+          </swabTeamDays>
+        </swabRequest>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="176"/>
+        <anchorSwabTeam reference="176"/>
+      </nextSwabTeamDay>
+      <name>ghost[P_Req_2]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="178"/>
+      <chainMembers reference="179"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="180">
+      <id>303518463</id>
+      <nextSwabTeamDay id="181">
+        <id>906338109</id>
+        <batchIndex>0</batchIndex>
+        <batchSize>30</batchSize>
+        <swabRequest id="182">
+          <id>420184188</id>
+          <type>P</type>
+          <priority>2</priority>
+          <size>30</size>
+          <desc>P_Req_3</desc>
+          <runningOrder>3</runningOrder>
+          <swabTeamDays id="183">
+            <com.toc.opti.domain.SwabTeamDay reference="181"/>
+          </swabTeamDays>
+        </swabRequest>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="180"/>
+        <anchorSwabTeam reference="180"/>
+      </nextSwabTeamDay>
+      <name>ghost[P_Req_3]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="182"/>
+      <chainMembers reference="183"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="184">
+      <id>361207563</id>
+      <nextSwabTeamDay id="185">
+        <id>175849046</id>
+        <batchIndex>0</batchIndex>
+        <batchSize>50</batchSize>
+        <swabRequest id="186">
+          <id>10124765</id>
+          <type>P</type>
+          <priority>3</priority>
+          <size>50</size>
+          <desc>P_Req_4</desc>
+          <runningOrder>4</runningOrder>
+          <swabTeamDays id="187">
+            <com.toc.opti.domain.SwabTeamDay reference="185"/>
+          </swabTeamDays>
+        </swabRequest>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="184"/>
+        <anchorSwabTeam reference="184"/>
+      </nextSwabTeamDay>
+      <name>ghost[P_Req_4]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="186"/>
+      <chainMembers reference="187"/>
+    </com.toc.opti.domain.SwabTeam>
+    <com.toc.opti.domain.SwabTeam id="188">
+      <id>834916749</id>
+      <nextSwabTeamDay id="189">
+        <id>516903716</id>
+        <batchIndex>0</batchIndex>
+        <batchSize>30</batchSize>
+        <swabRequest id="190">
+          <id>985169457</id>
+          <type>P</type>
+          <priority>2</priority>
+          <size>30</size>
+          <desc>P_Req_5</desc>
+          <runningOrder>5</runningOrder>
+          <swabTeamDays id="191">
+            <com.toc.opti.domain.SwabTeamDay reference="189"/>
+          </swabTeamDays>
+        </swabRequest>
+        <pinned>false</pinned>
+        <previousSwabTeamOrTeamDay class="com.toc.opti.domain.SwabTeam" reference="188"/>
+        <anchorSwabTeam reference="188"/>
+      </nextSwabTeamDay>
+      <name>ghost[P_Req_5]</name>
+      <ghost>true</ghost>
+      <ghostTo reference="190"/>
+      <chainMembers reference="191"/>
+    </com.toc.opti.domain.SwabTeam>
+  </swabTeams>
+  <slotIndexes id="192">
+    <int>0</int>
+    <int>1</int>
+    <int>2</int>
+    <int>3</int>
+    <int>4</int>
+    <int>5</int>
+    <int>6</int>
+  </slotIndexes>
+  <swabRequests id="193">
+    <com.toc.opti.domain.SwabRequest reference="114"/>
+    <com.toc.opti.domain.SwabRequest reference="119"/>
+    <com.toc.opti.domain.SwabRequest reference="125"/>
+    <com.toc.opti.domain.SwabRequest reference="132"/>
+    <com.toc.opti.domain.SwabRequest reference="139"/>
+    <com.toc.opti.domain.SwabRequest reference="146"/>
+    <com.toc.opti.domain.SwabRequest reference="152"/>
+    <com.toc.opti.domain.SwabRequest reference="158"/>
+    <com.toc.opti.domain.SwabRequest reference="165"/>
+    <com.toc.opti.domain.SwabRequest reference="170"/>
+    <com.toc.opti.domain.SwabRequest reference="174"/>
+    <com.toc.opti.domain.SwabRequest reference="178"/>
+    <com.toc.opti.domain.SwabRequest reference="182"/>
+    <com.toc.opti.domain.SwabRequest reference="186"/>
+    <com.toc.opti.domain.SwabRequest reference="190"/>
+  </swabRequests>
+  <swabTeamDayList id="194">
+    <com.toc.opti.domain.SwabTeamDay reference="110"/>
+    <com.toc.opti.domain.SwabTeamDay reference="111"/>
+    <com.toc.opti.domain.SwabTeamDay reference="112"/>
+    <com.toc.opti.domain.SwabTeamDay reference="113"/>
+    <com.toc.opti.domain.SwabTeamDay reference="117"/>
+    <com.toc.opti.domain.SwabTeamDay reference="118"/>
+    <com.toc.opti.domain.SwabTeamDay reference="122"/>
+    <com.toc.opti.domain.SwabTeamDay reference="123"/>
+    <com.toc.opti.domain.SwabTeamDay reference="124"/>
+    <com.toc.opti.domain.SwabTeamDay reference="128"/>
+    <com.toc.opti.domain.SwabTeamDay reference="129"/>
+    <com.toc.opti.domain.SwabTeamDay reference="130"/>
+    <com.toc.opti.domain.SwabTeamDay reference="131"/>
+    <com.toc.opti.domain.SwabTeamDay reference="135"/>
+    <com.toc.opti.domain.SwabTeamDay reference="136"/>
+    <com.toc.opti.domain.SwabTeamDay reference="137"/>
+    <com.toc.opti.domain.SwabTeamDay reference="138"/>
+    <com.toc.opti.domain.SwabTeamDay reference="142"/>
+    <com.toc.opti.domain.SwabTeamDay reference="143"/>
+    <com.toc.opti.domain.SwabTeamDay reference="144"/>
+    <com.toc.opti.domain.SwabTeamDay reference="145"/>
+    <com.toc.opti.domain.SwabTeamDay reference="149"/>
+    <com.toc.opti.domain.SwabTeamDay reference="150"/>
+    <com.toc.opti.domain.SwabTeamDay reference="151"/>
+    <com.toc.opti.domain.SwabTeamDay reference="155"/>
+    <com.toc.opti.domain.SwabTeamDay reference="156"/>
+    <com.toc.opti.domain.SwabTeamDay reference="157"/>
+    <com.toc.opti.domain.SwabTeamDay reference="161"/>
+    <com.toc.opti.domain.SwabTeamDay reference="162"/>
+    <com.toc.opti.domain.SwabTeamDay reference="163"/>
+    <com.toc.opti.domain.SwabTeamDay reference="164"/>
+    <com.toc.opti.domain.SwabTeamDay reference="168"/>
+    <com.toc.opti.domain.SwabTeamDay reference="169"/>
+    <com.toc.opti.domain.SwabTeamDay reference="173"/>
+    <com.toc.opti.domain.SwabTeamDay reference="177"/>
+    <com.toc.opti.domain.SwabTeamDay reference="181"/>
+    <com.toc.opti.domain.SwabTeamDay reference="185"/>
+    <com.toc.opti.domain.SwabTeamDay reference="189"/>
+  </swabTeamDayList>
+  <labPreferences id="195">
+    <com.toc.opti.domain.LabPreference id="196">
+      <id>230342893</id>
+      <lab reference="76"/>
+      <swabTeam reference="89"/>
+      <type>N</type>
+      <hardConstraint>false</hardConstraint>
+    </com.toc.opti.domain.LabPreference>
+    <com.toc.opti.domain.LabPreference id="197">
+      <id>165597487</id>
+      <lab reference="79"/>
+      <swabTeam reference="95"/>
+      <type>N</type>
+      <hardConstraint>true</hardConstraint>
+    </com.toc.opti.domain.LabPreference>
+    <com.toc.opti.domain.LabPreference id="198">
+      <id>887870861</id>
+      <lab reference="76"/>
+      <swabTeam reference="97"/>
+      <type>P</type>
+      <hardConstraint>true</hardConstraint>
+    </com.toc.opti.domain.LabPreference>
+  </labPreferences>
+  <startTime>2020-05-27T02:27:16.257</startTime>
+  <planningWindowSize>7</planningWindowSize>
+</com.toc.opti.domain.SwabAssignmentSolution>

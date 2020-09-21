@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <scanAnnotatedClasses/>
+  <!-- Score configuration -->
+  <scoreDirectorFactory>
+    <constraintProviderClass>com.toc.opti.solver.TestAllocationConstraintProvider</constraintProviderClass> 
+  </scoreDirectorFactory>
+  <moveThreadCount>AUTO</moveThreadCount>
+  <!-- 
+   <environmentMode>FAST_ASSERT</environmentMode>
+   -->
+
+  <!-- Optimization algorithms configuration -->
+  <termination>
+  <secondsSpentLimit>60</secondsSpentLimit>
+  </termination>
+  
+   <localSearch>
+     <acceptor>
+      <entityTabuSize>7</entityTabuSize>
+    </acceptor>
+    <forager>
+      <acceptedCountLimit>1000</acceptedCountLimit>
+      <finalistPodiumType>STRATEGIC_OSCILLATION</finalistPodiumType>
+    </forager>
+    
+    
+   <!-- 
+    <acceptor>
+      <simulatedAnnealingStartingTemperature>1hard/5medium/10soft</simulatedAnnealingStartingTemperature>
+    </acceptor>
+    <forager>
+      <acceptedCountLimit>1</acceptedCountLimit>
+    </forager>
+    -->
+    
+    
+  </localSearch>
+</solver>

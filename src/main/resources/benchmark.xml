@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plannerBenchmark>
+   <benchmarkDirectory>local/data/benchmark</benchmarkDirectory>
+   <inheritedSolverBenchmark>
+      <problemBenchmarks>
+         <xStreamAnnotatedClass>com.toc.opti.domain.SwabAssignmentSolution</xStreamAnnotatedClass>
+         <inputSolutionFile>small.xml</inputSolutionFile>
+         <inputSolutionFile>med.xml</inputSolutionFile>
+         <inputSolutionFile>large.xml</inputSolutionFile>
+      </problemBenchmarks>
+      <solver>
+         <solutionClass>com.toc.opti.domain.SwabAssignmentSolution</solutionClass>
+         <entityClass>com.toc.opti.domain.SwabTeamOrTeamDay</entityClass>
+         <entityClass>com.toc.opti.domain.SwabTeamDay</entityClass>
+         <entityClass>com.toc.opti.domain.SwabTeam</entityClass>
+         <moveThreadCount>AUTO</moveThreadCount>
+         <scoreDirectorFactory>
+            <constraintProviderClass>com.toc.opti.solver.TestAllocationConstraintProvider</constraintProviderClass>
+         </scoreDirectorFactory>
+         <termination>
+            <unimprovedSecondsSpentLimit>60</unimprovedSecondsSpentLimit>
+         </termination>
+         <constructionHeuristic>
+            <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+            <changeMoveSelector>
+               <valueSelector variableName="assignedLab" />
+            </changeMoveSelector>
+            <changeMoveSelector>
+               <valueSelector variableName="startDelay" />
+            </changeMoveSelector>
+            <changeMoveSelector>
+               <valueSelector variableName="previousSwabTeamOrTeamDay" />
+            </changeMoveSelector>
+         </constructionHeuristic>
+         <localSearch>
+            <!-- MUST split up assigning of chain moves or normal moves if not null pointer will happen. -->
+            <unionMoveSelector>
+               <changeMoveSelector>
+                  <valueSelector variableName="assignedLab" />
+               </changeMoveSelector>
+               <changeMoveSelector>
+                  <valueSelector variableName="startDelay" />
+               </changeMoveSelector>
+               <swapMoveSelector>
+                  <variableNameInclude>assignedLab</variableNameInclude>
+                  <variableNameInclude>startDelay</variableNameInclude>
+               </swapMoveSelector>
+               <swapMoveSelector>
+                  <variableNameInclude>assignedLab</variableNameInclude>
+               </swapMoveSelector>
+               <swapMoveSelector>
+                  <variableNameInclude>startDelay</variableNameInclude>
+               </swapMoveSelector>
+               <pillarChangeMoveSelector>
+                  <subPillarType>ALL</subPillarType>
+                  <pillarSelector>
+                     <minimumSubPillarSize>1</minimumSubPillarSize>
+                     <maximumSubPillarSize>1000</maximumSubPillarSize>
+                  </pillarSelector>
+                  <valueSelector variableName="assignedLab" />
+               </pillarChangeMoveSelector>
+               <pillarSwapMoveSelector>
+                  <subPillarType>ALL</subPillarType>
+                  <pillarSelector>
+                     <minimumSubPillarSize>1</minimumSubPillarSize>
+                     <maximumSubPillarSize>1000</maximumSubPillarSize>
+                  </pillarSelector>
+                  <variableNameInclude>assignedLab</variableNameInclude>
+               </pillarSwapMoveSelector>
+               <pillarChangeMoveSelector>
+                  <subPillarType>ALL</subPillarType>
+                  <pillarSelector>
+                     <minimumSubPillarSize>1</minimumSubPillarSize>
+                     <maximumSubPillarSize>1000</maximumSubPillarSize>
+                  </pillarSelector>
+                  <valueSelector variableName="startDelay" />
+               </pillarChangeMoveSelector>
+               <pillarSwapMoveSelector>
+                  <subPillarType>ALL</subPillarType>
+                  <pillarSelector>
+                     <minimumSubPillarSize>1</minimumSubPillarSize>
+                     <maximumSubPillarSize>1000</maximumSubPillarSize>
+                  </pillarSelector>
+                  <variableNameInclude>startDelay</variableNameInclude>
+               </pillarSwapMoveSelector>
+               <pillarSwapMoveSelector>
+                  <subPillarType>ALL</subPillarType>
+                  <pillarSelector>
+                     <minimumSubPillarSize>1</minimumSubPillarSize>
+                     <maximumSubPillarSize>1000</maximumSubPillarSize>
+                  </pillarSelector>
+                  <variableNameInclude>assignedLab</variableNameInclude>
+                  <variableNameInclude>startDelay</variableNameInclude>
+               </pillarSwapMoveSelector>
+               <!-- chain moves -->
+               <tailChainSwapMoveSelector>
+                  <valueSelector variableName="previousSwabTeamOrTeamDay" />
+               </tailChainSwapMoveSelector>
+               <!-- 
+		 
+		   <subChainChangeMoveSelector>
+
+		      <subChainSelector>
+		        <valueSelector variableName="previousSwabTeamOrTeamDay">
+		        </valueSelector>
+		        <minimumSubChainSize>2</minimumSubChainSize>
+		        <maximumSubChainSize>40</maximumSubChainSize>
+		      </subChainSelector>
+		      <valueSelector variableName="previousSwabTeamOrTeamDay">
+		      </valueSelector>
+		      <selectReversingMoveToo>true</selectReversingMoveToo>
+		    </subChainChangeMoveSelector>
+		 
+		 
+		   <subChainSwapMoveSelector>
+		      
+		      <subChainSelector>
+		        <valueSelector variableName="previousSwabTeamOrTeamDay">
+		        </valueSelector>
+		        <minimumSubChainSize>2</minimumSubChainSize>
+		        <maximumSubChainSize>40</maximumSubChainSize>
+		      </subChainSelector>
+		      <secondarySubChainSelector>
+		        <valueSelector variableName="previousSwabTeamOrTeamDay">
+		        </valueSelector>
+		        <minimumSubChainSize>2</minimumSubChainSize>
+		        <maximumSubChainSize>40</maximumSubChainSize>
+		      </secondarySubChainSelector>
+		      <selectReversingMoveToo>true</selectReversingMoveToo>
+		    </subChainSwapMoveSelector>
+    -->
+            </unionMoveSelector>
+            <acceptor>
+               <lateAcceptanceSize>400</lateAcceptanceSize>
+               <moveTabuSize>10</moveTabuSize>
+            </acceptor>
+            <forager>
+               <acceptedCountLimit>1</acceptedCountLimit>
+            </forager>
+            <!-- 
+		<acceptor>
+			<moveTabuSize>10</moveTabuSize>
+		</acceptor>
+		<forager>
+			<acceptedCountLimit>1000</acceptedCountLimit>
+			<finalistPodiumType>STRATEGIC_OSCILLATION</finalistPodiumType>
+		</forager>
+
+	 -->
+            <!-- 
+		<acceptor>
+			<simulatedAnnealingStartingTemperature>[1/5]hard/[10/100]soft</simulatedAnnealingStartingTemperature>
+			<moveTabuSize>10</moveTabuSize>
+		</acceptor>
+		<forager>
+			<acceptedCountLimit>1</acceptedCountLimit>
+		</forager>
+	  -->
+         </localSearch>
+      </solver>
+   </inheritedSolverBenchmark>
+   <solverBenchmark>
+      <name>Late Acceptance</name>
+      <solver>
+         <localSearch>
+            <acceptor>
+               <lateAcceptanceSize>400</lateAcceptanceSize>
+               <moveTabuSize>10</moveTabuSize>
+               <entityTabuSize>5</entityTabuSize>
+            </acceptor>
+            <forager>
+               <acceptedCountLimit>1</acceptedCountLimit>
+            </forager>
+         </localSearch>
+      </solver>
+   </solverBenchmark>
+   <solverBenchmark>
+      <name>Tabu Search</name>
+      <solver>
+         <localSearch>
+            <acceptor>
+               <moveTabuSize>10</moveTabuSize>
+            </acceptor>
+            <forager>
+               <acceptedCountLimit>1000</acceptedCountLimit>
+               <finalistPodiumType>STRATEGIC_OSCILLATION</finalistPodiumType>
+            </forager>
+         </localSearch>
+      </solver>
+   </solverBenchmark>
+</plannerBenchmark>
