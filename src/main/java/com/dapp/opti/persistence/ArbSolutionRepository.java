@@ -80,7 +80,7 @@ public class ArbSolutionRepository {
 		}
 
 		if (inMemStore.containsKey(id)) {
-			System.out.println("Retrieving from memstore");
+//			System.out.println("Retrieving from memstore");
 			return inMemStore.get(id);
 		}
 		logger.error("No scenario loaded yet, initialising random scenario.");
